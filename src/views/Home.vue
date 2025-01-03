@@ -19,7 +19,7 @@ const navigateToCounter = () => {
         <div class="z-10">
             <h1 class="text-9xl text-white font-extrabold">ARE YOU READY?</h1>
             <button 
-            class="bg-white text-black hover:bg-black hover:text-white font-bold py-2 px-4 rounded-full mt-10" 
+            class="bg-white text-black hover:bg-black hover:text-white font-bold py-2 px-4 rounded-full mt-4 sm:mt-6 md:mt-10" 
             @click="navigateToCounter">
             Klick Hier!
             </button>
