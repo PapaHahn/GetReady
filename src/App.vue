@@ -1,17 +1,11 @@
-
+<script setup lang="ts">
+import { SpeedInsights } from "@vercel/speed-insights/next"
+</script>
 
 <template>
   <main>
     <RouterView />
+    <SpeedInsights />
   </main>
 </template>
 
-<style>
-/* Definiere die Übergangs-Styles */
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.5s;
-}
-.fade-enter-from, .fade-leave-to {
-  opacity: 0;
-}
-</style>
