@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineComponent } from 'vue';
 import { useRouter } from 'vue-router';
 import backgroundImage from '../assets/background.png'; // Importiere das Hintergrundbild
 const router = useRouter();

@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import { ref, onMounted, onUnmounted } from 'vue';
-import { useRouter } from 'vue-router';
 import backgroundImage from '../assets/background.png'; // Importiere das Hintergrundbild
 // Ziel-Datum festlegen: 1. Juni 2026, 00:00:00
 const targetDate = new Date('June 1, 2026 00:00:00').getTime();
